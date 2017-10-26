@@ -1,0 +1,22 @@
+ver pasta que estamos ... pwd
+verifcar nome... hostname
+comando que lista os conteudos da pasta... ls
+apagar determinado arquivo .... rm nomedoarquivo.extensão dele
+criando uma nova pasta ou diretorio ... mkdir nome do diretorio
+criando arquivo txt.. ou qualquer ... nano arquivo.txt
+listando só o arquivo .. ls -l nomedoarquivo
+exibir conteudo do arquivo ... cat arquivo.txt
+exibir conteudo do arquivo só pelas quantidades de linhas.  head -3 arquivo.txt
+tail -4 arquivo ... 4 ultimas linhas
+filtrar um arquivo e mostrar só quando tem palavras red... cat password | grep red
+processos da memoria.. ps
+qem ta logado usuario ... whoami
+adduser.. criar usuario
+mudar controle de acesso de um determinado arquivo... chown regina:regina arquivo.txt
+nslookup numero ... eng..
+dig comando .. dig navinet.com.br -t ns
+para saber correio eletronico gid navinet.com.br -t mx
+descobriu o servido e agora verificando .. ele dig axfr navinet.com.br @ns2.navinet.com.br 
+agora pra jogar ele no arquivo dig axfr navinet.com.br @ns2.navinet.com.br > resultado
+perquisas google .. intitle: escolas
++"escola de * de belo horizonte" -yoga

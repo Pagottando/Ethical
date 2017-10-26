@@ -1,0 +1,9 @@
+nano /etc/proxychains.conf
+
+descomentar dynamic e proxy dns
+
+usar o socks5
+
+
+proxychains firefox www.duckduckgo.com
+

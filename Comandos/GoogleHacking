@@ -1,0 +1,12 @@
+intitle:escola -- Titulo de pesquisa
+inurl:admin ou admin.php  ou access.log(poderia injetar codigo php)-- ele procura no endereço a url admin
+intext: politica -- procura no texto a palavra
+"escolas de * de belo horizonte" -- o * representa que poderia ser qual escola seja de informatica, de balé ou etc
++"escolas de * de belo horizonte" -yoga ... tirando yoda da pesquisa
+info:www.uol.com.br  --- dado interessante que o google lhe oferece ..
+site:gov.br -- só determinados sites
+filetype: pdf --- tipos de arquivos
++inurl:robots.txt +filetype:txt
+site:gov.br filetype:txt password  ou +site:gov.br +filetype:txt +password
+site:gov.br filetype:txt cpf
++"index of/*" +site:gov.br

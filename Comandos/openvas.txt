@@ -1,0 +1,5 @@
+apt-get install openvas
+openvas-setup
+senha do adm ... openvasmd --user=admin --new-password=admin
+openvas-stop e openvas-start
+localhost:9392

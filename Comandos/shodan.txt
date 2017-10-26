@@ -1,0 +1,13 @@
+city:"Feira de santana"
+country:"br"
+hostname:virtua.com.br -- 
+os:"windows.xp"
+geo:  -- coordenadas geograficas
+port:80 --- portas
+port:22 city:belo horizonte
+city:"rio de janeiro" port:455 --- compartilhamento de pastas
+
+vareduras de portas
+
+net:200.131.250.0/24 port:22
+	 

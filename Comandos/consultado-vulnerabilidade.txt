@@ -1,0 +1,2 @@
+slmail 5.5 exploit
+sites bons para verificar exploit-db ( programas para explorar falha) e securityfocus( explica o funcionamento da falha)

@@ -1,0 +1,10 @@
+http://www.whatsmyip.org/whois-dns-lookup/  verificar informaçoes
+https://registro.br  -- consulta mais detalhada
+https://archive.org/ biblioteca digital da internet
+pegar ip do atk http://grabify.link/  
+http://www.mailtracking.com/ pdf 
+https://censys.io/ acessar 
+https://www.shodan.io/
+nmap.org
+http://www.tenable.com/
+http://www.openvas.org/

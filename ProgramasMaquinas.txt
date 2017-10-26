@@ -1,0 +1,5 @@
+SLmail55
+adobe
+xampp
+jre 7u6
+firefox
